@@ -32,6 +32,7 @@ describe('Automation Test Suite - Fixtures', function () {
                 cy.visit('https://shop.demoqa.com/my-account/');
                 cy.get('#reg_username').as("username");
                 cy.get("@username").type(this.data.Username);
+                //thimmaraju
                 cy.get('#reg_email').type(this.data.Email);
                 cy.get('#reg_password').type(this.data.Password)
 
