@@ -1,0 +1,12 @@
+{
+
+        "extends":"./cypress.json",
+
+        "env":{
+            "adminurl":"https://opensource-demo.orangehrmlive.com/",
+            "clienturl":"https://opensource-demo.orangehrmlive.com/"
+    
+        }
+        
+    
+}

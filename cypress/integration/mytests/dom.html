@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <button id="myBtn">first button</button>
+            <p id="newpara"></p>
+            <input type="text"/>
+            <p id="myPara1"> This is first paragraph</p>
+            <p id="myPara2"> This is first paragraph2</p>
+            <h3 id="cal">Calculator</h3>
+            <br>
+            <input id="num1"/> 
+            <input id="num2"/> 
+            <button id="btn">
+                Add
+            </button>
+            <p id="result"></p>
+
+    
+        </body>
+
+        <script>
+            document.getElementById("myPara1").innerHTML="Paragraph text changed while rendering with JavaScript"
+            document.getElementById("myBtn").onclick= displaydate;
+            function displaydate(){
+                document.getElementById("newpara").innerHTML=Date();
+            }
+
+            function add(){
+                let a=document.getElementById("num1").value;
+                let b=document.getElementById("num2").value;
+                let addedres= parseInt(a)+parseInt(b) 
+                document.getElementById("result").innerHTML=addedres           
+            }            
+            document.getElementById("btn").onclick=add;
+        </script>
+    </head>
+</html>

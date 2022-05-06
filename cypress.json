@@ -1,0 +1,19 @@
+{
+    "video": true,
+    "chromeWebSecurity": false, 
+    "env":{
+        "adminurl":"https://opensource-demo.orangehrmlive.com/",
+        "clienturl":"https://google.com"
+
+
+    },
+    "testFiles": "**/*.feature",
+    "projectId": "txjh6h",
+    "reporter": "mochawesome",
+        "reporterOptions": {
+        "reportFilename": "test-report",
+        "overwrite": false
+    },
+    "supportFile": "./cypress/support/index.js",
+    "ignoreTestFiles": ["**/stepDefinitions/*","*.js", "*.md"]    
+}
