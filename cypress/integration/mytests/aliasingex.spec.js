@@ -14,5 +14,7 @@ describe('Checkboxes', () => {
         .each(checkbox => {
           expect(checkbox[0].checked).to.equal(true)
         })
+
+        //Raju
     })
   })
