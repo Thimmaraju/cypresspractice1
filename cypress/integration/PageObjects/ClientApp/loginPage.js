@@ -8,6 +8,12 @@ class loginPage {
         cy.xpath(this.loginBtn()).click();
     }
 
+      conflict(){
+
+        cy.xpath(this.usernameinput()).type("Admin");
+        cy.xpath(this.passwordinput()).type("admin123");
+        cy.xpath(this.loginBtn()).click();
+    }
     loginmethodvalid(){
 
         cy.xpath(this.usernameinput()).type("Admin");
