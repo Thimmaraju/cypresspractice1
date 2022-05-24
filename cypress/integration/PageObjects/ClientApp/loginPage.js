@@ -13,7 +13,9 @@ class loginPage {
         cy.xpath(this.usernameinput()).type("Admin");
         cy.xpath(this.passwordinput()).type("admin123");
         cy.xpath(this.loginBtn()).click();
+        /kfnkjewnfkj
     }
+
     loginmethodinvalid(){
 
         cy.xpath(this.usernameinput()).type("Admin");
